@@ -1,0 +1,15 @@
+# Compatibility and completeness
+
+The export covers all GuiBase2d and UIComponent descendants in Workspace, StarterGui, ReplicatedStorage, Teams and ReplicatedFirst in the provided place. Studio/CoreGui/plugin interfaces are excluded. The 7,841 objects span 24 concrete UI classes. Every exported node is searchable and cloneable, including nested nodes and components.
+
+Snapshot properties are differences from freshly created Studio defaults at extraction time. Templates instantiate those native defaults and apply the captured values. A future engine default change can affect properties absent from the snapshot. `reference/coverage.json` records explicit value-serialization omissions. Read-only, protected, hidden and deprecated properties are not assigned. Object references resolve only when both endpoints are inside the cloned subtree. Billboard/surface Adornee and viewport cameras/content must be supplied by the caller.
+
+Visual template trees never execute original scripts. Non-UI intermediate parents are represented as Folders, preserving names and grouping without bringing in game scripts or 3D objects. A cloned window or control does not automatically inherit original behavior. Saved invisible state is retained until overridden.
+
+Every exported GUI handler method name is provided by the standalone library. Signatures are intentionally explicit and documented in API.md. General UI methods have standalone implementations. The following game-specific entrypoints use reusable dialogs with caller-owned content: BlockbuxConfirmBox, MissingGamepassesPrompt, EarlyAccessRewards, AcceptGuidelines, CallToAction, IconMessageBox, OnboardingGUI, DecalMenu, HalloweenHub, WinterEventHub and EventCurrencyConversion. They do not recreate underlying service logic, purchases, grants, moderation or progression. Use the original named visual templates when their exact arrangement is required.
+
+`GetPlayerlistHeight()` returns 0 because Roblox does not expose the CoreGui player-list geometry. `GetModelZoomOffset` uses a model bounding-box estimate. `CreateScrollGradient` attaches a gradient; dynamic scroll-edge masking is caller-owned. `LinkTextSize` synchronizes explicit TextSize values; text fitting uses native TextScaled and UITextSizeConstraint through Create or templates. `Glow` is a stroke. `Fit` scales an offset-sized design canvas and does not rearrange content for portrait layouts.
+
+Downloaded images are original bytes from public asset delivery. The 221 unavailable originals are preserved as references with explicit status, never replaced with unrelated artwork or mislabeled thumbnails. Source Roblox asset IDs remain in the library; local files provide visual reference and archival bytes, and do not automatically upload images into a different experience.
+
+All native methods and events remain available on the returned Roblox instances (for example, button.Activated, frame:TweenPosition or textBox:CaptureFocus). `UI.Create(className, properties, children)` supports native classes beyond those used in this snapshot. It passes properties through and reports invalid property errors instead of silently dropping them.

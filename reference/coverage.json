@@ -1,0 +1,453 @@
+{
+  "nodes": 7841,
+  "classes": {
+    "SurfaceGui": 310,
+    "TextLabel": 1584,
+    "ImageLabel": 1646,
+    "Frame": 1294,
+    "BillboardGui": 39,
+    "UISizeConstraint": 173,
+    "UIStroke": 260,
+    "UIAspectRatioConstraint": 487,
+    "ScreenGui": 27,
+    "ImageButton": 729,
+    "TextButton": 119,
+    "UIGridLayout": 32,
+    "ScrollingFrame": 42,
+    "UIListLayout": 131,
+    "UIGradient": 67,
+    "UICorner": 473,
+    "UITextSizeConstraint": 197,
+    "TextBox": 34,
+    "UIPadding": 119,
+    "ViewportFrame": 8,
+    "UIPageLayout": 5,
+    "UIFlexItem": 61,
+    "UIScale": 1,
+    "CanvasGroup": 3
+  },
+  "assetIds": 377,
+  "imageUses": 2394,
+  "omissions": [
+    {
+      "id": 250,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 250,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 250,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 340,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 340,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 340,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 492,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 492,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 492,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1214,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1214,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1214,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1239,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1239,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1239,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1268,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1268,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1268,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1323,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1323,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1323,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1462,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1462,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1462,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1563,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1563,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1563,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1659,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1659,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1659,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1701,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1701,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1701,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1842,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1842,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1842,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1890,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1890,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1890,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1975,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1975,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 1975,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 4220,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 4220,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 4220,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 5103,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 5103,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 5103,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 5112,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 5112,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 5112,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 5364,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 5364,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 5364,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 5798,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 5798,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 5798,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6423,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6423,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6423,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6469,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6469,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6469,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6764,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6764,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6764,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6891,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6891,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6891,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6920,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6920,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 6920,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 7435,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 7435,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 7435,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 7449,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 7449,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 7449,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 7651,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 7651,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 7651,
+      "property": "TopImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 7825,
+      "property": "BottomImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 7825,
+      "property": "MidImageContent",
+      "type": "Content"
+    },
+    {
+      "id": 7825,
+      "property": "TopImageContent",
+      "type": "Content"
+    }
+  ]
+}

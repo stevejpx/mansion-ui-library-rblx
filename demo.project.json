@@ -1,0 +1,8 @@
+{
+ "name":"Mansion UI Gallery",
+ "tree":{
+  "$className":"DataModel",
+  "ReplicatedStorage":{"MansionUI":{"$path":"src"}},
+  "StarterPlayer":{"StarterPlayerScripts":{"MansionDemo":{"$path":"examples/Gallery.client.luau"}}}
+ }
+}
